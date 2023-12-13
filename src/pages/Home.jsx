@@ -46,7 +46,7 @@ const Home = () => {
 
         <div className="bg-white w-300 h-50 flex flex-row ml-5">
           <div className="mr-4">
-            <img src="https://uxwing.com/wp-content/themes/uxwing/download/agriculture-farming-gardening/grain-rice-icon.svg" className="w-14 h-12 rounded-full border-solid border-2 border-green-600 "/>
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/agriculture-farming-gardening/grain-rice-icon.svg" className="w-14 h-12 rounded-full border-solid border-2 border-black "/>
             <h className="ml-1">Wheat</h>
           </div>
           <div className="mr-4">
@@ -63,7 +63,8 @@ const Home = () => {
           </div>
           <div className="w-14 h-12 rounded-full mr-4 border-solid border-2 border-black">
             <div className="ml-1">
-              <AiOutlinePlus className="h-11 w-11"/>
+              <AiOutlinePlus className="h-11 w-11" />
+              <Link to="/CropPlan" className="h-11 w-11">Add</Link>
             </div>
           </div>
         </div>
