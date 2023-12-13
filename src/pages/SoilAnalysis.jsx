@@ -119,4 +119,4 @@ const SoilAnalysis = () => {
     </div>
   )
 }
-export default SoilAnalysis
+export default SoilAnalysiss
