@@ -1,12 +1,20 @@
-
-
+import { MdMenu } from "react-icons/md";
+import { IoMdNotifications } from "react-icons/io";
 const Heading = () => {
   return (
-    <div className="h-200 bg-white flex justify-center items-center">
-    <div className="border-t-2 border-b-2 border-green-800 p-4">
-        <p className="text-lg text-green-800 font-orelega font-extrabold">Agrosahayak</p>
+    <div className="h-200 bg-white flex justify-between items-center border-t-2 border-b-2 border-green-800">
+      <div className="w-20 h-20 flex items-center">
+        <MdMenu className="fill-green-900 w-10 h-10"/>
+      </div>
+      
+      <div className="p-4 flex flex-row">
+      
+        <p className="text-2xl text-green-800 font-orelega font-extrabold">AgroSahayak</p>
+      </div>
+      <div className="w-20 h-20 flex items-center ">
+        <IoMdNotifications className="fill-green-900 w-10 h-10 ml-10"/>
+      </div>
     </div>
-</div>
   )
 }
 

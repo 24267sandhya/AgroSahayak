@@ -1,19 +1,22 @@
 import './App.css'
+import SoilAnalysis from './pages/SoilAnalysis'
 import Home from './pages/Home'
+import { Route, Routes } from "react-router-dom"
 
 
 function App() {
 
   return (
     <>
-      <div>   
-      <div className="w-360 h-800 bg-blue-500">
-        <Home/>
-      
+      <div>
+      <Routes>
+        <Route exact path="/" element={<Home/>}/>
+        <Route path="/soilanalysis" element={<SoilAnalysis/>}/>
+      </Routes>
       </div>
-      </div>  
+
     </>
   )
 }
 
-export default App
+export default App
