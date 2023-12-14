@@ -9,6 +9,8 @@ import NextTask4 from './pages/NextTask4'
 import NextTask5 from './pages/NextTask5'
 import NextTask6 from './pages/NextTask6'
 import NextTask7 from './pages/NextTask7'
+import Community from './pages/Community'
+import Mypost from './pages/Mypost'
 import { Route, Routes } from "react-router-dom"
 
 
@@ -28,6 +30,8 @@ function App() {
         <Route path="/NextTask5" element={<NextTask5 />} />
         <Route path="/NextTask6" element={<NextTask6/>} />
         <Route path="/NextTask7" element={<NextTask7 />} />
+        <Route path="/Community" element={<Community/>} />
+        <Route path="/Mypost" element={<Mypost/>}/>
       </Routes>
       </div>
 

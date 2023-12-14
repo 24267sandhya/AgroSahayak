@@ -1,5 +1,5 @@
 import { IoIosArrowBack } from "react-icons/io";
-import { Link } from 'react-router-dom'; 
+import { Link } from 'react-router-dom';
 
 
 const Heading = () => {
@@ -9,9 +9,9 @@ const Heading = () => {
                 <Link to="/" className=" h-6 w-6"><IoIosArrowBack className=" h-8 w-8 rounded-full bg-green-700" /></Link>
             </div>
             <div className="p-4 ml-[12vh]">
-                <p className="text-2xl text-green-800 font-orelega font-extrabold">Crop Plan</p>
+                <p className="text-2xl text-green-800 font-orelega font-extrabold">Community</p>
             </div>
-            
+
 
         </div>
     )

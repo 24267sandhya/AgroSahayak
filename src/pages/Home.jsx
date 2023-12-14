@@ -22,7 +22,7 @@ const Home = () => {
           <div className="w-80 space-y-2">
             <p>Gurugram, 27 Jul</p>
             <p className="font-bold text-2xl">35°C</p>
-            <p class>35°C/28°C</p>
+            <p >35°C/28°C</p>
             <p>Precipitation:14%</p>
           </div>
           <div className="w-30">
@@ -37,6 +37,9 @@ const Home = () => {
           <div className="w-80 mt-10">
             <div className="bg-amber-950  h-8 text-white text-center rounded-full mx-7 ">
               <Link to="/soilanalysis" className="text-xl">Soil Analysis</Link>
+            </div>
+            <div className=''>
+                <Link to="/Community" className="text-xl">Community</Link>
             </div>
           </div>
           <div className="w-30">
