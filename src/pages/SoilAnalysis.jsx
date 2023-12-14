@@ -1,4 +1,4 @@
-import Heading from "../components/HeadingSoil"
+import HeadingSoil from "../components/HeadingSoil"
 import { useState } from 'react';
 
 
@@ -32,7 +32,7 @@ const SoilAnalysis = () => {
     <div className="bg-blue-500 w-full h-screen">
      <div className="bg-blue-500 min-h-screen flex justify-center items-center">
       <div className="bg-white max-w-md w-full h-800 p-8 rounded-lg shadow-lg space-y-4">
-      <Heading/>
+      <HeadingSoil/>
        
 
       <div className="bg-green-800 w-340 h-123 rounded-lg flex  p-4 space-x-4">
